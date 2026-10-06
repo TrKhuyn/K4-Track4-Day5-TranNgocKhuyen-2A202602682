@@ -16,6 +16,15 @@
 .DS_Store
 .latexmkrc
 
+# Python virtual environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
 # Instructor-only. Keep locally; do not ship to students.
 Lab/kalman_fusion_lab_SOLUTIONS.ipynb
 Lab/instructor_answer_key.py
